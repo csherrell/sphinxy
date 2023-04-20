@@ -447,6 +447,21 @@ lint = ["docutils-stubs", "flake8 (>=3.5.0)", "flake8-simplify", "isort", "mypy 
 test = ["cython", "html5lib", "pytest (>=4.6)"]
 
 [[package]]
+name = "sphinx-multiversion"
+version = "0.2.4"
+description = "Add support for multiple versions to sphinx"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "sphinx-multiversion-0.2.4.tar.gz", hash = "sha256:5cd1ca9ecb5eed63cb8d6ce5e9c438ca13af4fa98e7eb6f376be541dd4990bcb"},
+    {file = "sphinx_multiversion-0.2.4-py3-none-any.whl", hash = "sha256:dec29f2a5890ad68157a790112edc0eb63140e70f9df0a363743c6258fbeb478"},
+]
+
+[package.dependencies]
+sphinx = ">=2.1"
+
+[[package]]
 name = "sphinxcontrib-applehelp"
 version = "1.0.4"
 description = "sphinxcontrib-applehelp is a Sphinx extension which outputs Apple help books"
@@ -561,4 +576,4 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "4a8961fcd2631b29b62ab42d74c4d721f179b84cd3a6e359454e26e62beb9e00"
+content-hash = "0b5a07029c5ea64050b2d9621672c41e7bc154d3e943d032ce0460bbdfb3df1b"
